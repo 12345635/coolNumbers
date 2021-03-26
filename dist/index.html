@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>炫酷数字</title>
+    <style>
+        body{
+            padding:0;
+            background: #3e3e3e;
+            position:flex;
+            height: 100vh;
+            width: 100vw;
+        }
+        #divconter{
+            word-break: break-all;
+        }
+        #divconter span{
+            margin: 0 5px;
+            color:#fff;
+        }
+        .center{
+            font-size: 8rem;
+            color: rgba(255,255,255,.7);
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            transition: all 1s ease-in, opacity 0.7s ease-in 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <div id="divconter"></div>
+    <div id="divcenter" class="center">1</div>
+    <script src="main.js"></script>
+</body>
+</html>
